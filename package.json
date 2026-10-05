@@ -1,0 +1,18 @@
+{
+  "name": "bookit",
+  "version": "0.1.0",
+  "description": "BookIt booking marketplace",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter @bookit/core-api build",
+    "format": "pnpm --filter @bookit/core-api format",
+    "lint": "pnpm --filter @bookit/core-api lint",
+    "start:dev": "pnpm --filter @bookit/core-api start:dev",
+    "test": "pnpm --filter @bookit/core-api test",
+    "test:e2e": "pnpm --filter @bookit/core-api test:e2e"
+  },
+  "engines": {
+    "node": ">=24.15.0 <25"
+  },
+  "packageManager": "pnpm@10.14.0"
+}
